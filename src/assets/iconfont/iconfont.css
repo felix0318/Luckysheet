@@ -7,6 +7,11 @@
   url('iconfont.svg?t=1605236775724#iconfont') format('svg'); /* iOS 4.1- */
 }
 
+@font-face {font-family: "iconfont";
+  src:url('iconfont-new.woff2?t=1687625357173') format('woff2'),
+  url('iconfont-new.woff?t=1687625357173') format('woff'),
+  url('iconfont-new.ttf?t=1687625357173') format('truetype');
+}
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
@@ -455,3 +460,10 @@
   content: "\e7dd";
 }
 
+.luckysheet-iconfont-save:before {
+  content: "\e630";
+}
+
+.luckysheet-iconfont-view:before {
+  content: "\e69e";
+}

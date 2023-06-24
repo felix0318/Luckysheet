@@ -5791,6 +5791,8 @@ export default {
         }
     },
     toolbar: {
+        preview:"Preview",
+        save:"Save",
         undo: 'Deshacer',
         redo: 'Rehacer',
         paintFormat: 'Clonar formato',

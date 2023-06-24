@@ -5791,6 +5791,8 @@ export default {
         }
     },
     toolbar: {
+        preview            :"预览",
+        save               :"保存",
         undo               : '撤銷',
         redo               : '重做',
         paintFormat        : '格式刷',

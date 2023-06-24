@@ -152,6 +152,16 @@ const menuButton = {
     initialMenuButton: function() {
         let _this = this;
 
+
+        //预览
+        $("#luckysheet-icon-preview").click(function() {
+            window.luckysheetPreview();
+        })
+        //保存
+        $("#luckysheet-icon-save").click(function() {
+            window.luckysheetSave();
+        })
+
         //格式刷
         $("#luckysheet-icon-paintformat").click(function(e) {
             // *如果禁止前台编辑，则中止下一步操作

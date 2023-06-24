@@ -6102,6 +6102,8 @@ export default {
         },
     },
     toolbar: {
+        preview:"Preview",
+        save:"Save",
         undo: "Undo",
         redo: "Redo",
         paintFormat: "Paint format",
