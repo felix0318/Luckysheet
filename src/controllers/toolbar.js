@@ -64,6 +64,8 @@ export const defaultToolbar = [
 
 // 工具栏按钮 id 关系
 export const toolbarIdMap = {
+    preview: '#luckysheet-icon-preview', //Undo redo
+    save: '#luckysheet-icon-save',
     undo: '#luckysheet-icon-undo', //Undo redo
     redo: '#luckysheet-icon-redo',
     paintFormat: ['#luckysheet-icon-paintformat'], //Format brush

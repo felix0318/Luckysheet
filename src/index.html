@@ -13,7 +13,6 @@
 	<link rel='stylesheet' href='./css/luckysheet.css' />
 	<link rel='stylesheet' href='./assets/iconfont/iconfont.css' />
 	<script src="./plugins/js/plugin.js"></script>
-
 	<!-- rollup luckysheet.js -->
 	<script src="./luckysheet.umd.js"></script>
 </head>
@@ -82,7 +81,18 @@
 				// http://localhost:3000/
 				options = {
 					container: 'luckysheet',
+					title:"测试",
 					lang: lang,
+					showinfobar:false,//显示顶部信息栏
+					userInfo:false, // 展示用户信息
+					showtoolbar: false, // 默认就是true，可以不设置
+					sheetFormulaBar:false,
+					showsheetbar:false,
+					showstatisticBar:false,
+					enableAddRow:false,
+					enableAddBackTop:false,
+					// 其他配置
+					functionButton : '<button id="" class="btn btn-primary btn-danger" style=" padding:3px 6px; font-size: 12px; margin-right: 5px;" onclick="exportHandle()">导出</button><button id="" class="btn btn-primary btn-danger" style=" padding:3px 6px; font-size: 12px; margin-right: 85px;" onclick="exportHandles()">在线导出</button>',
 					// pager: {
 					// 	pageIndex: 1,
 					// 	pageSize: 10,
